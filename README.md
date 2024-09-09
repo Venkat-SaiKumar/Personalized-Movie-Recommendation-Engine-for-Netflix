@@ -1,8 +1,6 @@
 # Personalized-Movie-Recommendation-Engine-for-Netflix
 Developed a personalized Movie Recommendation System using Python and Scikit-learn. Loaded and explored data from a CSV dataset, created a 'tags' feature by combining attributes, used CountVectorizer for text vectorization, and calculated cosine similarity for movie suggestions. Future plans include collaborative filtering and more metadata.
 
-This Python code builds a movie recommendation system using a dataset from TMDB (The Movie Database). The dataset includes movie metadata such as titles, genres, cast, crew, and keywords.
-
 ### Steps:
 1. **Data Loading**: The code begins by loading two CSV files: `tmdb_5000_movies.csv` and `tmdb_5000_credits.csv`.
 2. **Data Merging**: The two datasets are merged based on the movie title to combine important features like movie genres, keywords, cast, and crew.
